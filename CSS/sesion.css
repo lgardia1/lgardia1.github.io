@@ -31,6 +31,7 @@ body{
     background-color: #200000;
     border-radius: 22px 22px 0px 0px;
     overflow: visible;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
 .logo-sesion img{
@@ -56,6 +57,7 @@ body{
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container-sesion p{

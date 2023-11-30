@@ -10,95 +10,142 @@
     <link rel="icon" href="..\img\logo-1.jpg" type="image/jpg">
     <title>Modern Login Page | AsmrProg</title>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="btn-menu">
-                <label for="btn-menu">☰</label>
-            </div>
-            <div class="logo">
-                <a href="home.html"><h1>DreamGym</h1></a>
-            </div>
-            <nav class="menu">
-                <a href="shopping-basket.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                <a href="sesion.html"><i class="fa-solid fa-user"></i></a>
-            </nav>
-        </div>
-    </header>
-    <input type="checkbox" id="btn-menu">
-    <div class="container-menu">
-        <div class="cont-menu">
-            <nav>
-                <h2>Information:</h2>
-                <a href="#">About us</a>
-                <a href="#">What do we do</a>
-                <a href="#">Blog</a>
-                <h2 style="margin-top: 100px;">Shop:</h2>
-                <a href="#">Women's sale</a>
-                <a href="#">Men's sale</a>
-                <h2></h2>
-                <a href=""></a>
-            </nav>
-            <label for="btn-menu">✖️</label>
-        </div>
-    </div>
-    <div class="container-logo">
-        <header class="logo-sesion">
-            <img src="..\img\logo-1.jpg" alt="logo">
-            <h1>DreamGym</h1>
-        </header>
-        <div class="margin"></div>
-    </div>
-    <div class="container-sesion" id="container-sesion">
-        <div class="form-container sign-up">
-            <form>
-                <h1>Create Account</h1>
-                <div class="social-icons">
-                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fchannel%3Dfs%26client%3Dubuntu-sn%26q%3Dgmail&ec=GAZAAQ&hl=en&ifkv=ASKXGp0RhOpXB8pZTXeHwX7HVKpJmazB4LxKnZWIP1zmNo3UiTg08LbXG_0SsSGpwn5SL4kAVYrz9Q&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-955938459%3A1701247200962752&theme=glif"
-                        class="icon" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="https://m.facebook.com/login/?locale=es_LA&refsrc=deprecated" class="icon"
-                        target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email for registeration</span>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button>Sign Up</button>
-            </form>
-        </div>
-        <div class="form-container sign-in">
-            <form>
-                <h1>Sign In</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-                <span>or use your email password</span>
-                <input type="email" placeholder="Email/Username">
-                <input type="password" placeholder="Password">
-                <a href="forget-password.html" style="color: blue"><u>Forget Your Password?</u></a>
-                <button>Sign In</button>
-            </form>
-        </div>
-        <div class="toggle-container">
-            <div class="toggle">
-                <div class="toggle-panel toggle-left">
-                    <h1>Welcome Back!</h1>
-                    <p>Enter your personal details to use all of site features</p>
-                    <button class="hidden" id="login">Sign In</button>
-                </div>
-                <div class="toggle-panel toggle-right">
-                    <h1>Hello, Friend!</h1>
-                    <p>Register with your personal details to use all of site features</p>
-                    <button class="hidden" id="register">Sign Up</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script src="script.js"></script>
+<body>
+    <div class="all">
+        <header class="header">
+            <div class="container">
+                <div class="btn-menu">
+                    <label for="btn-menu">☰</label>
+                </div>
+                <div class="logo">
+                    <a href="home.html" target="_self">
+                        <h1>DreamGym</h1>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <a href="shopping-basket.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="sesion.html"><i class="fa-solid fa-user"></i></a>
+                </nav>
+            </div>
+        </header>
+        <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <h2>Information:</h2>
+                    <a href="#">About us</a>
+                    <a href="#">What do we do</a>
+                    <a href="#">Blog</a>
+                    <h2 style="margin-top: 100px;">Shop:</h2>
+                    <a href="#">Women's sale</a>
+                    <a href="#">Men's sale</a>
+                    <h2></h2>
+                    <a href=""></a>
+                </nav>
+                <label for="btn-menu">✖️</label>
+            </div>
+        </div>
+        <div class="container-logo">
+            <header class="logo-sesion">
+                <img src="..\img\logo-1.jpg" alt="logo">
+                <h1>DreamGym</h1>
+            </header>
+            <div class="margin"></div>
+        </div>
+        <div class="container-sesion" id="container-sesion">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Create Account</h1>
+                    <div class="social-icons">
+                        <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fchannel%3Dfs%26client%3Dubuntu-sn%26q%3Dgmail&ec=GAZAAQ&hl=en&ifkv=ASKXGp0RhOpXB8pZTXeHwX7HVKpJmazB4LxKnZWIP1zmNo3UiTg08LbXG_0SsSGpwn5SL4kAVYrz9Q&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-955938459%3A1701247200962752&theme=glif"
+                            class="icon" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="https://m.facebook.com/login/?locale=es_LA&refsrc=deprecated" class="icon"
+                            target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registeration</span>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Sign In</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email password</span>
+                    <input type="email" placeholder="Email/Username">
+                    <input type="password" placeholder="Password">
+                    <a href="forget-password.html" style="color: blue"><u>Forget Your Password?</u></a>
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Enter your personal details to use all of site features</p>
+                        <button class="hidden" id="login">Sign In</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Register with your personal details to use all of site features</p>
+                        <button class="hidden" id="register">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const container = document.getElementById('container-sesion');
+        const registerBtn = document.getElementById('register');
+        const loginBtn = document.getElementById('login');
+
+        registerBtn.addEventListener('click', () => {
+            container.classList.add("active");
+        });
+
+        loginBtn.addEventListener('click', () => {
+            container.classList.remove("active");
+        });
+    </script>
+    <footer class="container-footer">
+        <footer class="footer1">
+            <div class="social-network">
+                <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="come-back">
+                <a href="#seccion1">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <i class="decoration">BACK TO TOP</i>
+                </a>
+            </div>
+        </footer>
+        <hr>
+        <footer class="footer2">
+            <i class="fa-regular fa-copyright"></i>
+            <i>2023, Dream-Gym, Inc. All rights reserved. Dream-Gym, the Dream-Gym logo, Dream-gym shop, Dream-gym
+                Web site, Dream-Gym photos and all registered trademarks of Dream-Gym, Inc. in Spain and elsewhere.
+                Other brands or product names are the trademarks of their respective owners.</i>
+        </footer>
+        <footer class="footer3">
+            <a href="">Terms of service  </a>
+            <a href="">Privacy policy</a>
+            <a href="">Store refun policy </a>
+            <a href="">Account security</a>
+            <a href=""> Safety & security </a>
+            <a href="">Cookies Settings</a>
+        </footer>
+    </footer>
 </body>
 
 </html>
