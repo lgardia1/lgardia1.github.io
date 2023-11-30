@@ -6,5 +6,5 @@ This is a small project done to my teacher of LMSGI. Enjoy it, you can take part
 #Credits to that guy:
 https://youtu.be/PlpM2LJWu-s
  
-#Too se main file:
-To see the web sites, serarch in folder HTML and click on "home.html"
+#Too se the main file:
+Serarch in folder HTML and click on "home.html".
