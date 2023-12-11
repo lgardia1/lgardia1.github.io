@@ -1,4 +1,6 @@
-# Dream Gym ![Dream Gym Logo](img/logo-1.jpg)
+# Dream Gym 
+<img src="img/logo-1.jpg" alt="Dream Gym Logo" width="70%"/>
+
 
 ###### Welcome to Dream Gym, a web project for my LMSGI class. This project showcases a gym website with merchandise and training services.
 
