@@ -4,7 +4,7 @@
 	height: 100px;
 	position: fixed;
 	top: 5px;
-	z-index: 2;
+	z-index: 11;
 	background: rgb(65, 65, 65);
 	outline: 6px solid black;
 	border-right: 5px solid black;
@@ -165,6 +165,7 @@
 	margin-top: 1.5%;
 	height: auto;
 	width: auto;
+	margin-top: 100px;
 	}
 	.social-network{
 	float:left;
@@ -221,6 +222,5 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		margin-top: 20%;
-		margin-bottom: 13%;
+		margin-top: 500px;
 		}
