@@ -1,5 +1,5 @@
 # Dream Gym 
-<img src="img/logo-1.jpg" alt="Dream Gym Logo" width="70%"/>
+<a href="https://lgardia1.github.io/HTML/home.html"><img src="img/logo-1.jpg" alt="Dream Gym Logo" width="70%"/></a>
 
 
 ###### Welcome to Dream Gym, a web project for my LMSGI class. This project showcases a gym website with merchandise and training services.
@@ -14,9 +14,7 @@ Special thanks to [that guy](https://youtu.be/PlpM2LJWu-s) for inspiration and g
 
 ## Getting Started
 
-#### To preview in general the projects [click here](https://lgardia1.github.io/HTML/home.html)
-
-To view the main file, navigate to the HTML folder and click on [home.html](HTML/home.html).
+##### To view the main file, navigate to the HTML folder and click on [home.html](HTML/home.html).
 
 
 

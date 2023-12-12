@@ -191,8 +191,9 @@
 		text-decoration: none;
 	}
 	.footer2{
-	margin: 15px  10px 0px 0px;
-	width: 80%;
+	margin: 15px  0px 0px 300px;
+	width: 50%;
+	text-align: center;
 	}
 	.footer2 i{
 		margin: 0px;
@@ -209,11 +210,13 @@
 	.footer3{
 		display: flex;
 		flex-direction: row;
+		margin-left: 250px;
 	}
 	.footer3 a{
 		margin: 10px 5px;
 		font-size: 15px;
 		font-weight: bold;
+		color: #ed63fb
 	}
 	.all{
 		width: 100%;
