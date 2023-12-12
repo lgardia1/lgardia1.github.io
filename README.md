@@ -14,7 +14,8 @@ Special thanks to [that guy](https://youtu.be/PlpM2LJWu-s) for inspiration and g
 
 ## Getting Started
 
-##### To view the main file, navigate to the HTML folder and click on [home.html](HTML/home.html).
+##### To preview the main file, click on [DreamGym Image or here](https://lgardia1.github.io/HTML/home.html).
+##### To view the main file, navigate to the HTML folder and click on [home.html](https://github.com/lgardia1/lgardia1.github.io/blob/main/HTML/home.html).
 
 
 
