@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap');
+*{
+ font-family: 'Noto Sans', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header__{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(55, 255, 255);
+    border-bottom: 20px solid black;
+}
+.marcador{
+    height: 20vh;
+    border-radius: 22vh;
+    background-color: antiquewhite;
+}
+.header__1{
+    display: flex;
+    justify-content: start;
+    gap: 2.3vh;
+    align-items: center;
+    text-align: center;
+    margin-left: 6vh;
+
+}
+.header__1 h1 {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 3vh;
+}
+.header__1 i {
+    font-size: 3.6vh;
+    height: 100%;
+}
+.header__2{
+    margin-right: 13vh;
+    display: flex;
+    flex-direction: row;
+    gap: 6vh;
+    align-items: center;
+    justify-content: end;
+}
+.header__2 h2{
+    font-size: 2vh;
+}
