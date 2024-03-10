@@ -35,4 +35,4 @@ Para obtener ayuda, por favor contacta al equipo de New Port en contacto@newport
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
