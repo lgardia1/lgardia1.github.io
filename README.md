@@ -1,6 +1,6 @@
 # New Port
 
-![New Port Logo](nube.webp)
+![New Port Logo](image/nube.webp)
 
 New Port es una empresa dedicada a proporcionar soluciones innovadoras en tecnología de la información.
 
